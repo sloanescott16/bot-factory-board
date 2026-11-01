@@ -50,6 +50,11 @@ ol.minis{list-style:none;margin:0;padding:0}
 .mini>b{font-variant-numeric:tabular-nums;white-space:nowrap;font-size:12px}
 .mini .tr{text-align:right;font-size:11px;opacity:.8;white-space:nowrap}
 .mini.closing .nm small{font-style:italic}
+ul.facts{list-style:none;margin:0;padding:0}
+.facts li{padding:5px 0;border-bottom:1px solid rgba(128,128,128,.25);font-size:12.5px;line-height:1.4;overflow-wrap:anywhere}
+.facts li:last-child{border-bottom:0}.facts b{font-variant-numeric:tabular-nums;white-space:nowrap}
+.facts .lamp{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle;background:#9aa}
+.facts .lamp.on{background:#1a7f37}.facts .lamp.off{background:#c62828}
 body{background:#030608;color:#d6ebf2;font-family:"Segoe UI Variable Display","Segoe UI",-apple-system,"SF Pro Display",system-ui,sans-serif}
 body{background-color:#030608;background-image:linear-gradient(rgba(99,214,242,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(99,214,242,.055) 1px,transparent 1px);background-size:28px 28px}
 h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;text-transform:none;letter-spacing:.02em;color:#d6ebf2;text-shadow:0 0 12px rgba(99,214,242,.45)}
@@ -73,7 +78,7 @@ summary{color:#c79f4f;letter-spacing:.3em}
 .chart small{text-align:right}
 </style></head><body class="t-helm"><div class="wrap">
 <header class="head"><div class="eyebrow">Paper money only</div><h1>Bot <span>scoreboard</span></h1>
-<div class="meta">Last updated 2026-11-01 14:14 CST &middot; last paper tick 2026-11-01 14:13 CST &middot; generation 2, 1000 bots tried</div></header>
+<div class="meta">Last updated 2026-11-01 14:15 CST &middot; last paper tick 2026-11-01 14:13 CST &middot; generation 2, 1000 bots tried</div></header>
 <div class="note"><b>Paper money only.</b> Every dollar here is simulated. No real money is traded and no account is connected.</div>
 <div class="tiles">
 <div class="tile"><small>Top 10 on paper</small><b>10</b><small class="sub">0 proven, 10 unproven</small></div>
@@ -82,9 +87,19 @@ summary{color:#c79f4f;letter-spacing:.3em}
 <div class="tile"><small>Unproven</small><b>1000</b><small class="sub">not yet past held back</small></div>
 <div class="tile"><small>P&amp;L today</small><b class="down"><i class="ar">▼</i>-$970.00</b><small class="sub">day starts 00:00 CST</small></div>
 <div class="tile"><small>P&amp;L all time</small><b class="down"><i class="ar">▼</i>-$970.00</b><small class="sub">all 1000 paper ledgers</small></div>
-<div class="tile"><small>Closed trades</small><b>3</b><small class="sub">on those ledgers</small></div>
+<div class="tile"><small>Closed trades</small><b>3</b><small class="sub">0 won, 3 lost</small></div>
 <div class="tile"><small>Bots tried</small><b>1000</b><small class="sub">the held-back bar rises with it</small></div>
 </div>
+<h2>Right now</h2>
+<div class="card"><ul class="facts">
+<li><i class="lamp off"></i>Stocks: market closed (weekend), opens Mon 8:30 AM CT (481 bots waiting)</li>
+<li><i class="lamp on"></i>Crypto: trading 24/7 (519 bots)</li>
+<li>Closed trades: <b>3</b> (0 won, 3 lost), <b class="down"><i class="ar">▼</i>-$45.34</b> all time, <b class="down"><i class="ar">▼</i>-$45.34</b> today. Fees taken off.</li>
+<li>Open positions: <b>166</b>, marked to the latest price, <b class="down"><i class="ar">▼</i>-$924.66</b> all time, <b class="down"><i class="ar">▼</i>-$924.66</b> today. Not sold yet, so not a win or a loss.</li>
+<li>Fees paid: <b>$487.92</b> all time ($487.92 today), $474.63 on buys and $13.28 on sells, about 0.40% of each fill. Already inside the two lines above.</li>
+<li>Best open position: <b class="who">crypto-value-g2-448</b> ADA-USD, <b class="down"><i class="ar">▼</i>-$2.93</b> unrealised.</li>
+<li>Closed plus open: <b class="down"><i class="ar">▼</i>-$970.00</b> all time, <b class="down"><i class="ar">▼</i>-$970.00</b> today, the same as the P&amp;L tiles.</li>
+</ul></div>
 <h2>Top 10</h2>
 <ol class="rows"><li class="row unproven fam-meanrev">
 <div class="r1"><span class="rank"><span class="rk">1</span></span><span class="name"><b>stock-meanrev-g2-925</b><span class="badge unproven">unproven</span><small class="sub">stock meanrev, paper (unproven), 0 d</small><small class="sub">held back test +6.3%, 262 trades</small></span><span class="chart"><svg class="spark" width="78" height="26" viewBox="0 0 78 26" role="img" aria-label="equity line"><polyline fill="none" stroke="#63d6f2" stroke-width="2" stroke-linejoin="round" points="0.0,26.0 15.6,26.0 31.2,26.0 46.8,26.0 62.4,26.0 78.0,26.0"/></svg><small>paper</small></span></div>
