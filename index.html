@@ -12,12 +12,13 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 </style></head><body>
 <h1>Bot factory leaderboard</h1>
 <p><a href="scoreboard.html">Phone scoreboard</a>: rank, P&amp;L today and all time, trades and equity lines.</p>
-<p class="muted">Page built 2026-11-02 03:20 UTC. Generation 2, last paper tick 2026-11-02 03:20 UTC. 1200 bots tried so far; the luck haircut (deflated Sharpe) gets stricter with every one.</p>
-<p>Proven: 0 &middot; Paper trading: 0 &middot; Passed held-back test: 0 &middot; Awaiting held-back gate: 0 &middot; Not yet: 0 &middot; Retired: 1200</p>
-<p>Paper population: <b>1200</b> bots trading on paper of a target 1200 (0 proven, 1200 unproven, 0 retired from paper). "Retired" below means retired by a test gate; those bots still trade on the unproven paper ledger until a paper drawdown retires them. The <a href="scoreboard.html">scoreboard</a> shows their paper P&amp;L.</p>
+<p class="muted">Page built 2026-11-02 17:00 UTC. Generation 3, last paper tick 2026-11-02 16:59 UTC. 1216 bots tried so far; the luck haircut (deflated Sharpe) gets stricter with every one.</p>
+<p>Proven: 0 &middot; Paper trading: 0 &middot; Passed held-back test: 0 &middot; Awaiting held-back gate: 0 &middot; Not yet: 0 &middot; Retired: 1216</p>
+<p>Paper population: <b>1216</b> bots trading on paper of a target 1200 (0 proven, 1216 unproven, 0 retired from paper). "Retired" below means retired by a test gate; those bots still trade on the unproven paper ledger until a paper drawdown retires them. The <a href="scoreboard.html">scoreboard</a> shows their paper P&amp;L.</p>
 <p class="muted">Each bot is built on the making slice, must also hold up on a separate validation slice (the only results used to breed the next generation), then faces a held-back slice it never saw, then trades on paper with live prices. Proven needs 30 paper days, 10 paper trades, a gain, a lead over buy-and-hold and a drawdown of 20% or less. Paper money only. No real money is traded.</p>
 <h2>Generations</h2>
-<table><thead><tr><th>Gen</th><th>When</th><th>Made</th><th>Passed making</th><th>Passed validation</th><th>Passed held back</th><th>Retired</th><th>Bots tried in all</th></tr></thead><tbody><tr><td>2<div class="muted">top-up</div></td><td>2026-11-01 22:47 UTC</td><td>100<div class="muted">100 crypto-batch</div></td><td>19</td><td>2</td><td>0</td><td>100</td><td>1200</td></tr>
+<table><thead><tr><th>Gen</th><th>When</th><th>Made</th><th>Passed making</th><th>Passed validation</th><th>Passed held back</th><th>Retired</th><th>Bots tried in all</th></tr></thead><tbody><tr><td>3</td><td>2026-11-02 16:59 UTC</td><td>16<div class="muted">6 mutant, 4 cross, 6 random</div></td><td>11</td><td>11</td><td>0</td><td>16</td><td>1216</td></tr>
+<tr><td>2<div class="muted">top-up</div></td><td>2026-11-01 22:47 UTC</td><td>100<div class="muted">100 crypto-batch</div></td><td>19</td><td>2</td><td>0</td><td>100</td><td>1200</td></tr>
 <tr><td>2<div class="muted">top-up</div></td><td>2026-11-01 20:26 UTC</td><td>100<div class="muted">100 nlb-batch</div></td><td>12</td><td>9</td><td>0</td><td>100</td><td>1100</td></tr>
 <tr><td>2<div class="muted">top-up</div></td><td>2026-11-01 18:57 UTC</td><td>921<div class="muted">293 mutant, 41 cross, 587 random</div></td><td>539</td><td>416</td><td>0</td><td>921</td><td>1000</td></tr>
 <tr><td>2</td><td>2026-11-01 15:39 UTC</td><td>13<div class="muted">6 mutant, 1 cross, 6 random</div></td><td>9</td><td>9</td><td>0</td><td>13</td><td>79</td></tr>
@@ -33,32 +34,32 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <tr><td>crypto 1h trendvol</td><td>34</td><td>0</td><td>0</td><td>0</td></tr>
 <tr><td>crypto 1h volspike</td><td>35</td><td>0</td><td>0</td><td>0</td></tr>
 <tr><td>crypto 4h grid</td><td>17</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td>crypto 4h swing</td><td>16</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td>crypto 4h volbreak</td><td>16</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>crypto 4h swing</td><td>18</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><td>crypto 4h volbreak</td><td>17</td><td>0</td><td>0</td><td>0</td></tr>
 <tr><td>crypto grid</td><td>17</td><td>0</td><td>0</td><td>0</td></tr>
 <tr><td>crypto meanrev</td><td>40</td><td>4</td><td>2</td><td>0</td></tr>
 <tr><td>crypto momentum</td><td>40</td><td>25</td><td>0</td><td>0</td></tr>
 <tr><td>crypto nlb_bigmove</td><td>12</td><td>0</td><td>0</td><td>0</td></tr>
-<tr><td>crypto nlb_divengine</td><td>11</td><td>1</td><td>0</td><td>0</td></tr>
+<tr><td>crypto nlb_divengine</td><td>12</td><td>1</td><td>0</td><td>0</td></tr>
 <tr><td>crypto nlb_nlradx</td><td>11</td><td>0</td><td>0</td><td>0</td></tr>
 <tr><td>crypto relstrength</td><td>39</td><td>4</td><td>0</td><td>0</td></tr>
 <tr><td>crypto swing</td><td>17</td><td>9</td><td>1</td><td>0</td></tr>
 <tr><td>crypto trendvol</td><td>39</td><td>1</td><td>0</td><td>0</td></tr>
-<tr><td>crypto value</td><td>144</td><td>85</td><td>75</td><td>0</td></tr>
+<tr><td>crypto value</td><td>145</td><td>86</td><td>76</td><td>0</td></tr>
 <tr><td>crypto volbreak</td><td>17</td><td>10</td><td>1</td><td>0</td></tr>
 <tr><td>crypto volspike</td><td>40</td><td>25</td><td>8</td><td>0</td></tr>
-<tr><td>stock meanrev</td><td>284</td><td>279</td><td>246</td><td>0</td></tr>
+<tr><td>stock meanrev</td><td>293</td><td>288</td><td>255</td><td>0</td></tr>
 <tr><td>stock momentum</td><td>40</td><td>40</td><td>30</td><td>0</td></tr>
-<tr><td>stock nlb_bigmove</td><td>11</td><td>1</td><td>1</td><td>0</td></tr>
+<tr><td>stock nlb_bigmove</td><td>12</td><td>1</td><td>1</td><td>0</td></tr>
 <tr><td>stock nlb_divengine</td><td>11</td><td>9</td><td>8</td><td>0</td></tr>
 <tr><td>stock nlb_nlradx</td><td>11</td><td>1</td><td>0</td><td>0</td></tr>
 <tr><td>stock relstrength</td><td>41</td><td>40</td><td>35</td><td>0</td></tr>
 <tr><td>stock trendvol</td><td>38</td><td>38</td><td>33</td><td>0</td></tr>
-<tr><td>stock value</td><td>40</td><td>27</td><td>16</td><td>0</td></tr>
+<tr><td>stock value</td><td>41</td><td>28</td><td>17</td><td>0</td></tr>
 <tr><td>stock volspike</td><td>38</td><td>6</td><td>2</td><td>0</td></tr></tbody></table>
 <h2>Active bots (0)</h2>
 <table><thead><tr><th>Bot</th><th>Stage</th><th>Making</th><th>Validation</th><th>Held back</th><th>Trades</th><th>Deflated Sharpe</th><th>Equity curve</th><th>Why not further</th></tr></thead><tbody><tr><td colspan="9" class="muted">No active bots. Every bot so far has been retired by a gate.</td></tr></tbody></table>
-<details><summary>Retired bots (1200)</summary>
+<details><summary>Retired bots (1216)</summary>
 <table><thead><tr><th>Bot</th><th>Stage</th><th>Making</th><th>Validation</th><th>Held back</th><th>Trades</th><th>Deflated Sharpe</th><th>Equity curve</th><th>Why not further</th></tr></thead><tbody><tr>
 <td><b>stock-nlb_bigmove-g2-1001</b> <span class="tag nlb" title="NotLazyBear family">NLB</span><div class="muted">NLB (NotLazyBear, Advanced Big Move Predictor - Quant Squeeze with ADX and Volume) nlb_bigmove on stock, bbLen14-bbMult1.56-kcLen9-kcHigh2.77-kcMid2.47-kcLow1.57-momLen18-adxLen13-adxThr16-volLen17-volMult1.04-sqMin4-maxHold44</div><div class="muted">gen 2, nlb-batch</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
 <td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
@@ -368,6 +369,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.072 vs 0.072 a day)<br>deflated Sharpe 0.48 under 0.95 after 1000 bots tried, could be luck</td>
 </tr>
 <tr>
+<td><b>stock-value-g3-16</b><div class="muted">value on stock, lookback75-entryZ0.87-exitZ-0.29-maxHold173</div><div class="muted">gen 3, random</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>2.0%<div class="muted">83 trades</div></td>
+<td>3.4%<div class="muted">25 trades</div></td>
+<td>10.5%<div class="muted">buy and hold 53.3%</div></td>
+<td>72<div class="muted">60 won, 12 lost</div></td>
+<td>0.42</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,34.0 2.5,34.0 5.1,28.9 7.6,31.4 10.2,32.6 12.7,29.0 15.3,33.8 17.8,26.4 20.3,24.2 22.9,24.3 25.4,19.7 28.0,20.5 30.5,19.3 33.1,18.6 35.6,17.4 38.1,17.7 40.7,17.7 43.2,18.6 45.8,16.0 48.3,15.5 50.8,15.5 53.4,16.1 55.9,16.1 58.5,16.2 61.0,16.2 63.6,14.8 66.1,15.4 68.6,15.1 71.2,14.9 73.7,15.5 76.3,15.4 78.8,15.1 81.4,14.9 83.9,15.3 86.4,15.4 89.0,15.3 91.5,13.6 94.1,12.4 96.6,13.8 99.2,16.3 101.7,11.9 104.2,10.7 106.8,10.4 109.3,10.1 111.9,10.0 114.4,9.7 116.9,8.9 119.5,10.2 122.0,9.1 124.6,8.4 127.1,8.3 129.7,0.8 132.2,1.3 134.7,2.6 137.3,0.5 139.8,0.3 142.4,0.4 144.9,0.0 147.5,0.2 150.0,3.3"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.072 vs 0.072 a day)<br>deflated Sharpe 0.42 under 0.95 after 1216 bots tried, could be luck</td>
+</tr>
+<tr>
 <td><b>stock-momentum-g2-523</b><div class="muted">momentum on stock, breakout42-exitLow21</div><div class="muted">gen 2, random</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
 <td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
 <td>20.3%<div class="muted">52 trades</div></td>
@@ -443,6 +455,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td>0.45</td>
 <td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,31.6 2.5,32.1 5.1,33.0 7.6,33.6 10.2,34.0 12.7,34.0 15.3,34.0 17.8,32.6 20.3,32.7 22.9,32.8 25.4,32.7 28.0,32.9 30.5,32.7 33.1,33.3 35.6,32.8 38.1,31.7 40.7,31.1 43.2,31.0 45.8,30.3 48.3,30.8 50.8,31.6 53.4,31.1 55.9,31.2 58.5,28.0 61.0,28.6 63.6,26.6 66.1,26.5 68.6,28.5 71.2,27.9 73.7,26.2 76.3,29.0 78.8,28.7 81.4,26.3 83.9,25.1 86.4,23.2 89.0,23.5 91.5,23.8 94.1,26.5 96.6,26.6 99.2,26.3 101.7,23.0 104.2,22.7 106.8,11.9 109.3,0.0 111.9,6.3 114.4,8.4 116.9,7.3 119.5,6.7 122.0,9.1 124.6,11.1 127.1,10.3 129.7,10.3 132.2,10.3 134.7,10.3 137.3,10.3 139.8,10.5 142.4,9.6 144.9,9.4 147.5,9.5 150.0,9.3"/></svg><div class="muted">held back</div></td>
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.069 vs 0.072 a day)<br>deflated Sharpe 0.45 under 0.95 after 1000 bots tried, could be luck</td>
+</tr>
+<tr>
+<td><b>stock-meanrev-g3-2</b><div class="muted">meanrev on stock, rsiN3-rsiIn3-rsiOut66-trend232-maxHold8</div><div class="muted">gen 3, mutant of stock-meanrev-g2-228</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>7.9%<div class="muted">144 trades</div></td>
+<td>5.7%<div class="muted">78 trades</div></td>
+<td>10.7%<div class="muted">buy and hold 53.3%</div></td>
+<td>177<div class="muted">114 won, 63 lost</div></td>
+<td>0.39</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,27.0 2.5,26.4 5.1,26.3 7.6,31.5 10.2,34.0 12.7,32.9 15.3,33.5 17.8,32.3 20.3,31.3 22.9,31.3 25.4,30.4 28.0,29.3 30.5,29.3 33.1,28.7 35.6,27.3 38.1,26.8 40.7,26.4 43.2,26.1 45.8,24.8 48.3,23.3 50.8,23.3 53.4,20.0 55.9,18.4 58.5,17.6 61.0,17.0 63.6,14.7 66.1,16.8 68.6,15.4 71.2,18.3 73.7,17.5 76.3,17.3 78.8,15.2 81.4,16.0 83.9,17.7 86.4,14.5 89.0,15.5 91.5,10.9 94.1,9.6 96.6,10.9 99.2,11.4 101.7,9.8 104.2,11.2 106.8,10.5 109.3,8.8 111.9,10.0 114.4,11.5 116.9,13.9 119.5,13.2 122.0,12.3 124.6,12.3 127.1,13.0 129.7,5.0 132.2,3.0 134.7,4.3 137.3,3.1 139.8,1.1 142.4,0.3 144.9,0.0 147.5,1.7 150.0,2.1"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.067 vs 0.072 a day)<br>deflated Sharpe 0.39 under 0.95 after 1216 bots tried, could be luck</td>
 </tr>
 <tr>
 <td><b>stock-value-g1-11</b><div class="muted">value on stock, lookback62-entryZ1.38-exitZ-0.42-maxHold118</div><div class="muted">gen 1, random</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
@@ -1765,6 +1788,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.038 vs 0.072 a day)<br>deflated Sharpe 0.22 under 0.95 after 1000 bots tried, could be luck</td>
 </tr>
 <tr>
+<td><b>stock-meanrev-g3-1</b><div class="muted">meanrev on stock, rsiN2-rsiIn27-rsiOut64-trend197-maxHold10</div><div class="muted">gen 3, mutant of stock-meanrev-g2-175</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>26.5%<div class="muted">370 trades</div></td>
+<td>8.7%<div class="muted">206 trades</div></td>
+<td>8.5%<div class="muted">buy and hold 53.3%</div></td>
+<td>464<div class="muted">285 won, 179 lost</div></td>
+<td>0.18</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,18.1 2.5,19.5 5.1,18.2 7.6,25.1 10.2,29.2 12.7,27.1 15.3,33.0 17.8,34.0 20.3,33.1 22.9,32.7 25.4,31.6 28.0,30.2 30.5,29.5 33.1,29.5 35.6,28.3 38.1,27.0 40.7,27.6 43.2,29.7 45.8,29.3 48.3,29.1 50.8,28.8 53.4,24.7 55.9,22.6 58.5,19.2 61.0,20.0 63.6,17.2 66.1,19.6 68.6,25.5 71.2,26.1 73.7,27.5 76.3,30.8 78.8,27.2 81.4,25.3 83.9,23.4 86.4,19.4 89.0,22.4 91.5,18.8 94.1,16.3 96.6,15.0 99.2,14.1 101.7,11.6 104.2,12.4 106.8,2.9 109.3,0.8 111.9,1.5 114.4,5.5 116.9,13.0 119.5,9.9 122.0,11.5 124.6,10.6 127.1,10.4 129.7,6.5 132.2,7.3 134.7,11.6 137.3,6.6 139.8,5.0 142.4,2.3 144.9,4.2 147.5,6.9 150.0,0.0"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.038 vs 0.072 a day)<br>deflated Sharpe 0.18 under 0.95 after 1216 bots tried, could be luck</td>
+</tr>
+<tr>
 <td><b>stock-meanrev-g2-193</b><div class="muted">meanrev on stock, rsiN2-rsiIn14-rsiOut53-trend143-maxHold9</div><div class="muted">gen 2, mutant of stock-meanrev-v2</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
 <td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
 <td>20.9%<div class="muted">359 trades</div></td>
@@ -1785,6 +1819,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td>0.22</td>
 <td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,22.5 2.5,22.5 5.1,22.8 7.6,27.3 10.2,32.3 12.7,31.6 15.3,34.0 17.8,33.7 20.3,33.7 22.9,33.8 25.4,31.1 28.0,28.5 30.5,28.5 33.1,28.3 35.6,26.4 38.1,25.6 40.7,25.1 43.2,24.7 45.8,22.0 48.3,20.2 50.8,20.3 53.4,14.9 55.9,13.7 58.5,11.5 61.0,11.3 63.6,6.7 66.1,9.6 68.6,4.6 71.2,8.1 73.7,8.1 76.3,8.7 78.8,5.8 81.4,5.6 83.9,8.1 86.4,3.7 89.0,7.1 91.5,1.5 94.1,1.0 96.6,2.6 99.2,2.7 101.7,1.5 104.2,4.6 106.8,3.9 109.3,0.0 111.9,0.7 114.4,2.5 116.9,8.2 119.5,8.5 122.0,8.7 124.6,9.9 127.1,9.8 129.7,7.6 132.2,4.8 134.7,9.8 137.3,7.5 139.8,4.6 142.4,3.5 144.9,5.3 147.5,6.5 150.0,3.4"/></svg><div class="muted">held back</div></td>
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.037 vs 0.072 a day)<br>deflated Sharpe 0.22 under 0.95 after 1000 bots tried, could be luck</td>
+</tr>
+<tr>
+<td><b>stock-meanrev-g3-5</b><div class="muted">meanrev on stock, rsiN3-rsiIn19-rsiOut65-trend191-maxHold9</div><div class="muted">gen 3, mutant of stock-meanrev-g2-115</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>13.3%<div class="muted">217 trades</div></td>
+<td>9.4%<div class="muted">127 trades</div></td>
+<td>7.0%<div class="muted">buy and hold 53.3%</div></td>
+<td>264<div class="muted">162 won, 102 lost</div></td>
+<td>0.18</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,20.6 2.5,19.9 5.1,19.9 7.6,28.9 10.2,33.0 12.7,31.2 15.3,34.0 17.8,32.6 20.3,32.6 22.9,32.7 25.4,30.4 28.0,27.6 30.5,27.2 33.1,26.6 35.6,25.0 38.1,23.9 40.7,24.1 43.2,23.7 45.8,21.4 48.3,22.0 50.8,22.2 53.4,17.7 55.9,16.1 58.5,14.3 61.0,14.0 63.6,9.5 66.1,12.0 68.6,7.4 71.2,10.6 73.7,10.2 76.3,12.4 78.8,9.9 81.4,10.5 83.9,12.1 86.4,9.5 89.0,14.2 91.5,10.8 94.1,9.5 96.6,12.2 99.2,14.0 101.7,12.7 104.2,14.5 106.8,6.7 109.3,3.4 111.9,4.6 114.4,7.3 116.9,14.0 119.5,12.0 122.0,11.7 124.6,14.2 127.1,11.2 129.7,8.6 132.2,6.2 134.7,10.3 137.3,7.4 139.8,0.8 142.4,0.0 144.9,1.6 147.5,4.0 150.0,1.1"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.037 vs 0.072 a day)<br>deflated Sharpe 0.18 under 0.95 after 1216 bots tried, could be luck</td>
 </tr>
 <tr>
 <td><b>stock-meanrev-g2-188</b><div class="muted">meanrev on stock, rsiN2-rsiIn12-rsiOut58-trend143-maxHold9</div><div class="muted">gen 2, mutant of stock-meanrev-g2-7</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
@@ -2139,6 +2184,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.032 vs 0.072 a day)<br>deflated Sharpe 0.19 under 0.95 after 1000 bots tried, could be luck</td>
 </tr>
 <tr>
+<td><b>stock-meanrev-g3-10</b><div class="muted">meanrev on stock, rsiN2-rsiIn21-rsiOut62-trend154-maxHold8</div><div class="muted">gen 3, cross of stock-meanrev-g2-175 x stock-meanrev-g2-115</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>22.7%<div class="muted">372 trades</div></td>
+<td>6.4%<div class="muted">193 trades</div></td>
+<td>6.4%<div class="muted">buy and hold 53.3%</div></td>
+<td>417<div class="muted">260 won, 157 lost</div></td>
+<td>0.15</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,20.6 2.5,20.0 5.1,18.9 7.6,27.9 10.2,31.5 12.7,29.9 15.3,33.6 17.8,34.0 20.3,33.8 22.9,33.3 25.4,32.1 28.0,30.6 30.5,29.9 33.1,29.9 35.6,28.6 38.1,27.4 40.7,27.8 43.2,28.6 45.8,28.7 48.3,27.5 50.8,27.2 53.4,22.4 55.9,19.9 58.5,16.2 61.0,16.0 63.6,13.7 66.1,16.5 68.6,23.5 71.2,23.4 73.7,25.1 76.3,28.8 78.8,24.5 81.4,22.6 83.9,19.8 86.4,16.3 89.0,22.0 91.5,18.7 94.1,16.8 96.6,15.2 99.2,14.2 101.7,11.5 104.2,13.5 106.8,2.6 109.3,0.2 111.9,0.0 114.4,3.0 116.9,10.3 119.5,11.1 122.0,14.7 124.6,15.1 127.1,15.2 129.7,10.9 132.2,11.8 134.7,16.5 137.3,12.1 139.8,8.8 142.4,5.9 144.9,7.9 147.5,9.7 150.0,5.5"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.031 vs 0.072 a day)<br>deflated Sharpe 0.15 under 0.95 after 1216 bots tried, could be luck</td>
+</tr>
+<tr>
 <td><b>stock-meanrev-g2-297</b><div class="muted">meanrev on stock, rsiN3-rsiIn10-rsiOut60-trend100-maxHold8</div><div class="muted">gen 2, cross of stock-meanrev-g1-8 x stock-meanrev-g2-1</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
 <td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
 <td>18.6%<div class="muted">190 trades</div></td>
@@ -2302,6 +2358,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td>0.19</td>
 <td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,14.8 2.5,14.8 5.1,14.8 7.6,24.3 10.2,32.1 12.7,31.8 15.3,34.0 17.8,34.0 20.3,34.0 22.9,33.7 25.4,31.4 28.0,32.0 30.5,32.8 33.1,33.5 35.6,31.1 38.1,31.1 40.7,30.2 43.2,29.6 45.8,29.3 48.3,29.6 50.8,29.7 53.4,24.4 55.9,23.3 58.5,22.1 61.0,22.7 63.6,21.9 66.1,22.0 68.6,25.2 71.2,27.0 73.7,26.1 76.3,27.9 78.8,25.9 81.4,26.3 83.9,27.6 86.4,24.5 89.0,24.5 91.5,22.5 94.1,23.1 96.6,25.4 99.2,26.3 101.7,28.2 104.2,31.2 106.8,29.8 109.3,26.6 111.9,23.3 114.4,19.1 116.9,19.4 119.5,17.9 122.0,11.1 124.6,10.4 127.1,9.1 129.7,7.1 132.2,6.7 134.7,5.0 137.3,2.2 139.8,0.5 142.4,0.0 144.9,1.5 147.5,1.2 150.0,1.3"/></svg><div class="muted">held back</div></td>
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.030 vs 0.072 a day)<br>deflated Sharpe 0.19 under 0.95 after 79 bots tried, could be luck</td>
+</tr>
+<tr>
+<td><b>stock-meanrev-g3-8</b><div class="muted">meanrev on stock, rsiN2-rsiIn9-rsiOut66-trend143-maxHold8</div><div class="muted">gen 3, cross of stock-meanrev-g2-175 x stock-meanrev-g2-282</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>20.9%<div class="muted">334 trades</div></td>
+<td>5.0%<div class="muted">168 trades</div></td>
+<td>5.5%<div class="muted">buy and hold 53.3%</div></td>
+<td>365<div class="muted">225 won, 140 lost</div></td>
+<td>0.14</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,22.4 2.5,21.7 5.1,20.8 7.6,27.2 10.2,30.9 12.7,29.5 15.3,33.5 17.8,34.0 20.3,33.7 22.9,33.3 25.4,32.1 28.0,30.2 30.5,29.3 33.1,29.0 35.6,28.0 38.1,26.9 40.7,27.5 43.2,28.4 45.8,27.9 48.3,25.6 50.8,25.5 53.4,22.0 55.9,19.4 58.5,15.5 61.0,14.7 63.6,11.8 66.1,15.5 68.6,20.0 71.2,20.7 73.7,20.7 76.3,22.3 78.8,19.5 81.4,17.2 83.9,15.6 86.4,12.0 89.0,19.6 91.5,16.6 94.1,15.3 96.6,13.7 99.2,12.5 101.7,9.3 104.2,11.4 106.8,2.3 109.3,0.0 111.9,0.2 114.4,4.0 116.9,12.4 119.5,12.6 122.0,16.8 124.6,19.5 127.1,22.8 129.7,18.3 132.2,16.2 134.7,18.6 137.3,13.9 139.8,10.7 142.4,8.0 144.9,9.1 147.5,11.5 150.0,8.7"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.029 vs 0.072 a day)<br>deflated Sharpe 0.14 under 0.95 after 1216 bots tried, could be luck</td>
 </tr>
 <tr>
 <td><b>stock-momentum-g2-540</b><div class="muted">momentum on stock, breakout55-exitLow3</div><div class="muted">gen 2, random</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
@@ -3261,6 +3328,28 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.018 vs 0.072 a day)<br>deflated Sharpe 0.12 under 0.95 after 1000 bots tried, could be luck</td>
 </tr>
 <tr>
+<td><b>stock-meanrev-g3-9</b><div class="muted">meanrev on stock, rsiN3-rsiIn21-rsiOut66-trend110-maxHold8</div><div class="muted">gen 3, cross of stock-meanrev-g2-175 x stock-meanrev-g2-84</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>13.8%<div class="muted">227 trades</div></td>
+<td>6.4%<div class="muted">115 trades</div></td>
+<td>2.6%<div class="muted">buy and hold 53.3%</div></td>
+<td>234<div class="muted">141 won, 93 lost</div></td>
+<td>0.09</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,21.1 2.5,21.1 5.1,22.8 7.6,27.9 10.2,32.2 12.7,31.4 15.3,34.0 17.8,33.5 20.3,33.5 22.9,33.6 25.4,30.2 28.0,28.8 30.5,28.4 33.1,27.3 35.6,24.8 38.1,23.4 40.7,23.5 43.2,25.3 45.8,19.3 48.3,20.9 50.8,21.1 53.4,13.4 55.9,11.0 58.5,8.2 61.0,7.8 63.6,1.9 66.1,5.8 68.6,0.0 71.2,5.1 73.7,5.3 76.3,9.5 78.8,8.3 81.4,9.1 83.9,10.5 86.4,6.8 89.0,11.1 91.5,7.5 94.1,6.7 96.6,9.2 99.2,10.8 101.7,14.1 104.2,18.2 106.8,6.4 109.3,2.0 111.9,3.8 114.4,7.4 116.9,20.6 119.5,16.3 122.0,19.1 124.6,27.8 127.1,23.2 129.7,21.3 132.2,17.8 134.7,20.8 137.3,16.1 139.8,13.6 142.4,12.6 144.9,15.1 147.5,13.9 150.0,10.2"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.018 vs 0.072 a day)<br>deflated Sharpe 0.09 under 0.95 after 1216 bots tried, could be luck</td>
+</tr>
+<tr>
+<td><b>stock-meanrev-g3-4</b><div class="muted">meanrev on stock, rsiN2-rsiIn12-rsiOut54-trend87-maxHold8</div><div class="muted">gen 3, mutant of stock-meanrev-g2-84</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>15.8%<div class="muted">360 trades</div></td>
+<td>1.4%<div class="muted">165 trades</div></td>
+<td>2.8%<div class="muted">buy and hold 53.3%</div></td>
+<td>348<div class="muted">219 won, 129 lost</div></td>
+<td>0.09</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,19.5 2.5,19.4 5.1,19.7 7.6,25.7 10.2,29.5 12.7,27.4 15.3,30.4 17.8,34.0 20.3,33.7 22.9,33.0 25.4,31.8 28.0,29.9 30.5,29.9 33.1,28.9 35.6,28.6 38.1,26.9 40.7,27.9 43.2,29.9 45.8,27.9 48.3,25.9 50.8,25.0 53.4,20.7 55.9,18.1 58.5,13.4 61.0,12.4 63.6,8.7 66.1,13.1 68.6,20.9 71.2,21.4 73.7,21.4 76.3,24.8 78.8,21.4 81.4,20.5 83.9,19.9 86.4,12.7 89.0,18.9 91.5,16.3 94.1,15.0 96.6,12.8 99.2,9.6 101.7,10.1 104.2,12.7 106.8,2.6 109.3,0.4 111.9,0.0 114.4,2.6 116.9,13.4 119.5,12.3 122.0,18.6 124.6,21.1 127.1,22.6 129.7,21.1 132.2,21.3 134.7,21.6 137.3,18.5 139.8,15.8 142.4,13.0 144.9,14.6 147.5,14.9 150.0,11.1"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.017 vs 0.072 a day)<br>deflated Sharpe 0.09 under 0.95 after 1216 bots tried, could be luck</td>
+</tr>
+<tr>
 <td><b>stock-meanrev-g2-67</b><div class="muted">meanrev on stock, rsiN2-rsiIn21-rsiOut63-trend98-maxHold7</div><div class="muted">gen 2, mutant of stock-meanrev-v2</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
 <td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
 <td>19.9%<div class="muted">382 trades</div></td>
@@ -3314,6 +3403,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td>0.11</td>
 <td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,20.9 2.5,20.2 5.1,19.1 7.6,25.2 10.2,29.5 12.7,28.0 15.3,34.0 17.8,33.5 20.3,33.3 22.9,32.8 25.4,31.8 28.0,30.1 30.5,29.3 33.1,28.9 35.6,28.0 38.1,26.9 40.7,27.5 43.2,28.9 45.8,28.5 48.3,26.3 50.8,26.4 53.4,23.0 55.9,20.5 58.5,16.7 61.0,15.9 63.6,11.7 66.1,15.3 68.6,20.3 71.2,22.2 73.7,21.6 76.3,22.8 78.8,19.7 81.4,18.4 83.9,16.0 86.4,12.4 89.0,19.6 91.5,16.1 94.1,14.8 96.6,14.2 99.2,13.5 101.7,10.5 104.2,11.2 106.8,2.3 109.3,0.0 111.9,0.2 114.4,4.0 116.9,12.3 119.5,14.6 122.0,18.7 124.6,21.2 127.1,24.3 129.7,23.2 132.2,21.3 134.7,24.2 137.3,18.5 139.8,15.5 142.4,12.6 144.9,13.8 147.5,16.3 150.0,13.5"/></svg><div class="muted">held back</div></td>
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.017 vs 0.072 a day)<br>deflated Sharpe 0.11 under 0.95 after 1000 bots tried, could be luck</td>
+</tr>
+<tr>
+<td><b>stock-meanrev-g3-3</b><div class="muted">meanrev on stock, rsiN2-rsiIn10-rsiOut55-trend124-maxHold6</div><div class="muted">gen 3, mutant of stock-meanrev-g2-282</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>16.3%<div class="muted">358 trades</div></td>
+<td>2.7%<div class="muted">164 trades</div></td>
+<td>2.8%<div class="muted">buy and hold 53.3%</div></td>
+<td>364<div class="muted">225 won, 139 lost</div></td>
+<td>0.09</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,25.3 2.5,25.2 5.1,25.4 7.6,29.3 10.2,32.6 12.7,30.3 15.3,33.5 17.8,34.0 20.3,33.7 22.9,33.1 25.4,31.5 28.0,30.1 30.5,30.0 33.1,29.9 35.6,29.0 38.1,27.5 40.7,28.8 43.2,29.3 45.8,27.8 48.3,25.2 50.8,24.6 53.4,20.6 55.9,18.0 58.5,13.8 61.0,12.9 63.6,9.1 66.1,13.3 68.6,20.8 71.2,21.5 73.7,21.5 76.3,23.3 78.8,20.0 81.4,19.3 83.9,17.3 86.4,12.1 89.0,20.4 91.5,17.8 94.1,17.1 96.6,15.4 99.2,14.4 101.7,11.8 104.2,14.2 106.8,3.9 109.3,0.9 111.9,0.0 114.4,3.4 116.9,13.9 119.5,14.1 122.0,18.9 124.6,22.0 127.1,26.6 129.7,21.4 132.2,21.6 134.7,26.4 137.3,22.9 139.8,19.3 142.4,16.5 144.9,19.3 147.5,21.0 150.0,17.4"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.017 vs 0.072 a day)<br>deflated Sharpe 0.09 under 0.95 after 1216 bots tried, could be luck</td>
 </tr>
 <tr>
 <td><b>stock-meanrev-g2-56</b><div class="muted">meanrev on stock, rsiN2-rsiIn14-rsiOut58-trend54-maxHold12</div><div class="muted">gen 2, mutant of stock-meanrev-g2-7</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
@@ -3875,6 +3975,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td>0.08</td>
 <td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,4.9 2.5,5.6 5.1,4.1 7.6,7.0 10.2,8.0 12.7,6.0 15.3,8.2 17.8,22.0 20.3,27.7 22.9,27.7 25.4,27.7 28.0,27.7 30.5,27.7 33.1,30.6 35.6,34.0 38.1,33.4 40.7,33.4 43.2,33.4 45.8,29.1 48.3,28.7 50.8,31.1 53.4,31.1 55.9,30.4 58.5,31.1 61.0,31.1 63.6,30.7 66.1,30.8 68.6,30.8 71.2,30.8 73.7,30.8 76.3,30.0 78.8,31.7 81.4,30.8 83.9,31.1 86.4,29.8 89.0,27.6 91.5,27.6 94.1,27.6 96.6,27.6 99.2,23.3 101.7,20.8 104.2,18.4 106.8,20.4 109.3,11.8 111.9,13.8 114.4,15.4 116.9,14.1 119.5,14.9 122.0,6.8 124.6,6.8 127.1,6.8 129.7,0.7 132.2,0.7 134.7,0.7 137.3,0.0 139.8,0.5 142.4,2.7 144.9,2.7 147.5,2.7 150.0,2.6"/></svg><div class="muted">held back</div></td>
 <td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.006 vs 0.072 a day)<br>deflated Sharpe 0.08 under 0.95 after 1000 bots tried, could be luck</td>
+</tr>
+<tr>
+<td><b>stock-meanrev-g3-7</b><div class="muted">meanrev on stock, rsiN2-rsiIn3-rsiOut73-trend143-maxHold11</div><div class="muted">gen 3, cross of stock-meanrev-g2-175 x stock-meanrev-g2-228</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>21.2%<div class="muted">302 trades</div></td>
+<td>6.6%<div class="muted">153 trades</div></td>
+<td>0.8%<div class="muted">buy and hold 53.3%</div></td>
+<td>335<div class="muted">200 won, 135 lost</div></td>
+<td>0.06</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,21.2 2.5,20.0 5.1,17.8 7.6,25.0 10.2,29.8 12.7,28.9 15.3,33.5 17.8,34.0 20.3,33.7 22.9,33.2 25.4,31.8 28.0,29.9 30.5,28.6 33.1,28.2 35.6,27.2 38.1,26.9 40.7,27.6 43.2,31.5 45.8,30.2 48.3,27.7 50.8,28.0 53.4,24.1 55.9,21.3 58.5,14.6 61.0,12.8 63.6,7.8 66.1,11.8 68.6,17.7 71.2,19.8 73.7,19.1 76.3,20.3 78.8,16.6 81.4,14.8 83.9,13.0 86.4,9.0 89.0,18.3 91.5,15.6 94.1,14.4 96.6,13.1 99.2,13.6 101.7,9.7 104.2,11.9 106.8,2.7 109.3,0.0 111.9,0.5 114.4,4.9 116.9,13.8 119.5,15.5 122.0,21.1 124.6,24.0 127.1,26.4 129.7,25.2 132.2,23.0 134.7,25.7 137.3,20.3 139.8,17.3 142.4,14.8 144.9,16.6 147.5,20.1 150.0,19.0"/></svg><div class="muted">held back</div></td>
+<td class="why">risk-adjusted return did not beat buy-and-hold (Sharpe 0.006 vs 0.072 a day)<br>deflated Sharpe 0.06 under 0.95 after 1216 bots tried, could be luck</td>
 </tr>
 <tr>
 <td><b>stock-trendvol-g2-594</b><div class="muted">trendvol on stock, fast15-slow177-volN5-volLong75-maxVol0.6-exitVol1.31</div><div class="muted">gen 2, random</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
@@ -5085,6 +5196,17 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td>0.02</td>
 <td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#c62828" stroke-width="1.5" points="0.0,0.0 2.5,0.0 5.1,0.0 7.6,0.0 10.2,0.0 12.7,0.0 15.3,0.0 17.8,0.0 20.3,0.0 22.9,0.0 25.4,0.0 28.0,0.0 30.5,0.0 33.1,0.0 35.6,0.0 38.1,0.0 40.7,0.0 43.2,0.0 45.8,0.0 48.3,0.0 50.8,0.0 53.4,0.0 55.9,0.0 58.5,0.0 61.0,0.0 63.6,0.0 66.1,0.0 68.6,0.0 71.2,0.0 73.7,0.0 76.3,0.0 78.8,0.4 81.4,5.3 83.9,8.4 86.4,20.3 89.0,29.3 91.5,27.9 94.1,28.1 96.6,28.1 99.2,28.1 101.7,28.1 104.2,28.1 106.8,28.1 109.3,28.1 111.9,28.1 114.4,28.1 116.9,28.1 119.5,28.1 122.0,28.1 124.6,28.3 127.1,23.1 129.7,25.5 132.2,8.6 134.7,2.8 137.3,0.1 139.8,3.1 142.4,11.2 144.9,18.5 147.5,25.7 150.0,34.0"/></svg><div class="muted">held back</div></td>
 <td class="why">lost money on held-back data (-5.4%)<br>risk-adjusted return did not beat buy-and-hold (Sharpe -0.060 vs -0.037 a day)<br>deflated Sharpe 0.02 under 0.95 after 1200 bots tried, could be luck</td>
+</tr>
+<tr>
+<td><b>crypto-value-g3-6</b><div class="muted">value on crypto, lookback166-entryZ0.8-exitZ-0.26-maxHold84</div><div class="muted">gen 3, mutant of crypto-value-g2-618</div><div class="muted">data: Coinbase Exchange public candles (Kraken public OHLC fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>8.0%<div class="muted">46 trades</div></td>
+<td>1.7%<div class="muted">17 trades</div></td>
+<td>-13.2%<div class="muted">buy and hold -41.4%</div></td>
+<td>37<div class="muted">9 won, 28 lost</div></td>
+<td>0.02</td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#c62828" stroke-width="1.5" points="0.0,0.0 2.5,3.4 5.1,6.4 7.6,7.1 10.2,7.1 12.7,7.3 15.3,11.9 17.8,10.5 20.3,10.2 22.9,4.4 25.4,6.8 28.0,5.9 30.5,11.0 33.1,13.9 35.6,20.5 38.1,25.9 40.7,24.1 43.2,25.6 45.8,25.1 48.3,25.7 50.8,24.3 53.4,23.3 55.9,23.6 58.5,26.4 61.0,25.5 63.6,24.2 66.1,22.2 68.6,23.2 71.2,24.1 73.7,23.6 76.3,22.2 78.8,23.8 81.4,24.6 83.9,25.1 86.4,28.0 89.0,32.2 91.5,29.5 94.1,32.0 96.6,34.0 99.2,29.9 101.7,31.4 104.2,30.2 106.8,29.7 109.3,31.2 111.9,30.0 114.4,29.4 116.9,30.3 119.5,26.8 122.0,24.3 124.6,24.3 127.1,24.3 129.7,24.3 132.2,24.3 134.7,24.3 137.3,24.3 139.8,24.3 142.4,24.3 144.9,24.3 147.5,24.3 150.0,24.3"/></svg><div class="muted">held back</div></td>
+<td class="why">lost money on held-back data (-13.2%)<br>risk-adjusted return did not beat buy-and-hold (Sharpe -0.060 vs -0.037 a day)<br>deflated Sharpe 0.02 under 0.95 after 1216 bots tried, could be luck</td>
 </tr>
 <tr>
 <td><b>crypto-volspike-g2-920</b><div class="muted">volspike on crypto, avgN46-mult3.32-hold4</div><div class="muted">gen 2, random</div><div class="muted">data: Coinbase Exchange public candles (Kraken public OHLC fallback), daily</div></td>
@@ -13258,6 +13380,61 @@ th{background:#f0f0f0}.muted{color:#777;font-size:12px}.why{font-size:12px;color
 <td></td>
 <td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#c62828" stroke-width="1.5" points="0.0,9.7 2.5,9.7 5.1,9.7 7.6,9.7 10.2,9.7 12.7,9.7 15.3,9.7 17.8,9.7 20.3,9.7 22.9,9.7 25.4,9.7 28.0,9.7 30.5,9.7 33.1,9.7 35.6,9.7 38.1,12.3 40.7,10.8 43.2,8.3 45.8,9.4 48.3,6.3 50.8,11.1 53.4,7.0 55.9,4.0 58.5,6.8 61.0,5.3 63.6,4.7 66.1,3.8 68.6,4.1 71.2,3.3 73.7,2.5 76.3,3.1 78.8,1.4 81.4,1.9 83.9,0.8 86.4,0.0 89.0,2.4 91.5,5.4 94.1,8.5 96.6,8.9 99.2,7.2 101.7,10.9 104.2,11.1 106.8,15.5 109.3,14.3 111.9,16.9 114.4,28.1 116.9,31.5 119.5,31.5 122.0,31.5 124.6,31.5 127.1,31.5 129.7,31.5 132.2,31.5 134.7,31.7 137.3,30.6 139.8,33.8 142.4,33.3 144.9,33.1 147.5,34.0 150.0,30.1"/></svg><div class="muted">making</div></td>
 <td class="why">lost money in the making period (-6.5%)</td>
+</tr>
+<tr>
+<td><b>stock-nlb_bigmove-g3-11</b> <span class="tag nlb" title="NotLazyBear family">NLB</span><div class="muted">NLB (NotLazyBear, Advanced Big Move Predictor - Quant Squeeze with ADX and Volume) nlb_bigmove on stock, bbLen26-bbMult2.02-kcLen21-kcHigh2.8-kcMid2.11-kcLow1.1-momLen15-adxLen6-adxThr22-volLen34-volMult2.96-sqMin12-maxHold52</div><div class="muted">gen 3, random</div><div class="muted">data: Yahoo Finance chart, keyless (Nasdaq historical fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>0.0%<div class="muted">0 trades</div></td>
+<td><span class="muted">not run</span></td>
+<td><span class="muted">not run</span></td>
+<td>0<div class="muted">0 won, 0 lost</div></td>
+<td></td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#1a7f37" stroke-width="1.5" points="0.0,34.0 2.5,34.0 5.1,34.0 7.6,34.0 10.2,34.0 12.7,34.0 15.3,34.0 17.8,34.0 20.3,34.0 22.9,34.0 25.4,34.0 28.0,34.0 30.5,34.0 33.1,34.0 35.6,34.0 38.1,34.0 40.7,34.0 43.2,34.0 45.8,34.0 48.3,34.0 50.8,34.0 53.4,34.0 55.9,34.0 58.5,34.0 61.0,34.0 63.6,34.0 66.1,34.0 68.6,34.0 71.2,34.0 73.7,34.0 76.3,34.0 78.8,34.0 81.4,34.0 83.9,34.0 86.4,34.0 89.0,34.0 91.5,34.0 94.1,34.0 96.6,34.0 99.2,34.0 101.7,34.0 104.2,34.0 106.8,34.0 109.3,34.0 111.9,34.0 114.4,34.0 116.9,34.0 119.5,34.0 122.0,34.0 124.6,34.0 127.1,34.0 129.7,34.0 132.2,34.0 134.7,34.0 137.3,34.0 139.8,34.0 142.4,34.0 144.9,34.0 147.5,34.0 150.0,34.0"/></svg><div class="muted">making</div></td>
+<td class="why">only 0 trades in the making period, need 10<br>lost money in the making period (0.0%)</td>
+</tr>
+<tr>
+<td><b>crypto-4h-swing-g3-12</b><div class="muted">swing on crypto 4h, fast45-slow54-pull0.03-target0.31-trail0.11-ttl8</div><div class="muted">gen 3, random</div><div class="muted">data: undefined</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>-5.7%<div class="muted">36 trades</div></td>
+<td><span class="muted">not run</span></td>
+<td><span class="muted">not run</span></td>
+<td>36<div class="muted">10 won, 26 lost</div></td>
+<td></td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#c62828" stroke-width="1.5" points="0.0,6.3 2.5,6.3 5.1,6.3 7.6,6.3 10.2,6.3 12.7,6.3 15.3,6.3 17.8,6.3 20.3,6.3 22.9,6.3 25.4,6.3 28.0,6.3 30.5,6.3 33.1,6.3 35.6,6.3 38.1,6.3 40.7,6.3 43.2,6.3 45.8,8.3 48.3,10.5 50.8,14.2 53.4,6.5 55.9,2.3 58.5,7.7 61.0,4.5 63.6,2.5 66.1,1.0 68.6,0.9 71.2,0.0 73.7,4.5 76.3,4.9 78.8,2.8 81.4,5.1 83.9,4.0 86.4,4.1 89.0,8.2 91.5,15.3 94.1,19.3 96.6,20.0 99.2,20.0 101.7,20.0 104.2,20.0 106.8,20.0 109.3,20.0 111.9,20.0 114.4,20.0 116.9,20.0 119.5,20.0 122.0,20.0 124.6,20.0 127.1,20.0 129.7,17.1 132.2,22.4 134.7,29.6 137.3,25.4 139.8,34.0 142.4,34.0 144.9,33.7 147.5,33.7 150.0,33.7"/></svg><div class="muted">making</div></td>
+<td class="why">lost money in the making period (-5.7%)</td>
+</tr>
+<tr>
+<td><b>crypto-4h-swing-g3-13</b><div class="muted">swing on crypto 4h, fast49-slow62-pull0.02-target0.28-trail0.14-ttl2</div><div class="muted">gen 3, random</div><div class="muted">data: undefined</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>-5.2%<div class="muted">31 trades</div></td>
+<td><span class="muted">not run</span></td>
+<td><span class="muted">not run</span></td>
+<td>31<div class="muted">11 won, 20 lost</div></td>
+<td></td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#c62828" stroke-width="1.5" points="0.0,10.0 2.5,10.0 5.1,10.0 7.6,10.0 10.2,10.0 12.7,10.0 15.3,10.0 17.8,10.0 20.3,10.0 22.9,10.0 25.4,10.0 28.0,10.0 30.5,10.0 33.1,10.0 35.6,10.0 38.1,10.0 40.7,10.0 43.2,10.0 45.8,10.7 48.3,7.6 50.8,16.7 53.4,8.0 55.9,1.7 58.5,6.4 61.0,3.9 63.6,3.4 66.1,1.3 68.6,2.9 71.2,3.0 73.7,3.8 76.3,4.1 78.8,2.5 81.4,4.4 83.9,1.3 86.4,0.0 89.0,4.8 91.5,10.6 94.1,15.7 96.6,15.7 99.2,15.7 101.7,15.7 104.2,15.7 106.8,15.7 109.3,15.7 111.9,15.7 114.4,15.7 116.9,15.7 119.5,15.7 122.0,15.7 124.6,15.7 127.1,15.7 129.7,17.5 132.2,23.9 134.7,26.6 137.3,23.5 139.8,34.0 142.4,34.0 144.9,33.8 147.5,33.8 150.0,34.0"/></svg><div class="muted">making</div></td>
+<td class="why">lost money in the making period (-5.2%)</td>
+</tr>
+<tr>
+<td><b>crypto-nlb_divengine-g3-14</b> <span class="tag nlb" title="NotLazyBear family">NLB</span><div class="muted">NLB (NotLazyBear, Confirmed Divergence Engine v4.0 · Any Oscillator) nlb_divengine on crypto, osc3-oscLen21-macdFast11-macdSlow16-macdSig6-left3-right4-minSpan9-maxSpan56-maxPivots14-hidden1-zoneMode2-pctP13-pctP254-fixOS137-fixOB168-fixOS231-fixOB270-minOscDeltaPct18.74-minPriceATR0.72-useLOS1-minSwingATR1.1-minScore41-normLen284-atrLen9</div><div class="muted">gen 3, random</div><div class="muted">data: Coinbase Exchange public candles (Kraken public OHLC fallback), daily</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>-2.8%<div class="muted">5 trades</div></td>
+<td><span class="muted">not run</span></td>
+<td><span class="muted">not run</span></td>
+<td>5<div class="muted">0 won, 5 lost</div></td>
+<td></td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#c62828" stroke-width="1.5" points="0.0,0.0 2.5,0.0 5.1,0.0 7.6,0.0 10.2,0.0 12.7,0.0 15.3,0.0 17.8,0.0 20.3,0.0 22.9,0.0 25.4,0.0 28.0,0.0 30.5,0.0 33.1,0.0 35.6,0.0 38.1,0.0 40.7,0.0 43.2,0.0 45.8,0.0 48.3,0.0 50.8,0.0 53.4,0.0 55.9,0.0 58.5,0.0 61.0,0.0 63.6,0.0 66.1,0.0 68.6,0.0 71.2,0.0 73.7,0.0 76.3,0.0 78.8,0.0 81.4,0.0 83.9,0.0 86.4,0.0 89.0,0.0 91.5,0.0 94.1,0.0 96.6,0.0 99.2,0.0 101.7,0.0 104.2,0.0 106.8,0.0 109.3,0.0 111.9,0.0 114.4,0.0 116.9,0.0 119.5,0.0 122.0,0.0 124.6,0.0 127.1,0.0 129.7,0.0 132.2,0.0 134.7,0.0 137.3,0.0 139.8,0.0 142.4,0.0 144.9,0.0 147.5,11.6 150.0,34.0"/></svg><div class="muted">making</div></td>
+<td class="why">only 5 trades in the making period, need 10<br>lost money in the making period (-2.8%)</td>
+</tr>
+<tr>
+<td><b>crypto-4h-volbreak-g3-15</b><div class="muted">volbreak on crypto 4h, atrN25-k2.35-targetAtr2.24-costMult3.39-maxHold33-ttl5</div><div class="muted">gen 3, random</div><div class="muted">data: undefined</div></td>
+<td><span class="badge b-rejected">Not yet</span><div class="muted">retired</div></td>
+<td>-5.0%<div class="muted">19 trades</div></td>
+<td><span class="muted">not run</span></td>
+<td><span class="muted">not run</span></td>
+<td>19<div class="muted">5 won, 14 lost</div></td>
+<td></td>
+<td><svg width="150" height="34" viewBox="0 0 150 34" role="img" aria-label="equity curve"><polyline fill="none" stroke="#c62828" stroke-width="1.5" points="0.0,0.0 2.5,0.0 5.1,0.0 7.6,0.0 10.2,0.0 12.7,0.0 15.3,0.0 17.8,0.0 20.3,0.0 22.9,0.0 25.4,0.0 28.0,0.0 30.5,0.0 33.1,0.0 35.6,0.0 38.1,0.0 40.7,0.0 43.2,0.1 45.8,15.9 48.3,6.2 50.8,19.9 53.4,24.3 55.9,24.4 58.5,24.6 61.0,24.6 63.6,24.6 66.1,24.6 68.6,24.6 71.2,22.5 73.7,22.6 76.3,23.1 78.8,19.6 81.4,23.7 83.9,23.2 86.4,23.2 89.0,23.2 91.5,23.2 94.1,23.2 96.6,23.2 99.2,23.2 101.7,23.2 104.2,23.2 106.8,23.2 109.3,23.2 111.9,23.2 114.4,23.2 116.9,23.2 119.5,23.2 122.0,23.2 124.6,23.2 127.1,23.2 129.7,23.0 132.2,30.9 134.7,32.9 137.3,34.0 139.8,34.0 142.4,34.0 144.9,34.0 147.5,34.0 150.0,34.0"/></svg><div class="muted">making</div></td>
+<td class="why">lost money in the making period (-5.0%)</td>
 </tr></tbody></table>
 </details>
 </body></html>
